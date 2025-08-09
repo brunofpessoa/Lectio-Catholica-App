@@ -1,4 +1,4 @@
-export interface NumberContentReference {
+export interface Reference {
     id: number;
     number: number;
     reference: string;

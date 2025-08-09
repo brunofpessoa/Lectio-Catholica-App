@@ -1,7 +1,9 @@
 import { CicNumber } from './CicNumber';
+import { Reference } from './Reference';
 
 export interface Topic {
     id: number;
-    topic?: string;
+    title?: string;
     numbers: CicNumber[];
+    references?: Reference[];
 }

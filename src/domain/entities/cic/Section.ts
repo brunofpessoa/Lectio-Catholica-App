@@ -1,8 +1,8 @@
-import { Chapter } from "../bible/Chapter";
+import { Chapter } from "./Chapter";
 
 export interface Section {
     id: number;
-    section?: string;
     title?: string;
+    subTitle?: string;
     chapters: Chapter[];
 }

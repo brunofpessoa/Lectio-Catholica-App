@@ -1,10 +1,10 @@
-import { NumberContentReference } from './NumberContentReference';
+import { Reference } from "./Reference";
 
 export interface NumberContent {
     id: number;
     title?: string;
     content: string;
-    isQuote: boolean;
-    references?: NumberContentReference[];
-    titleReferences?: NumberContentReference[];
+    isQuote?: boolean;
+    references?: Reference[];
+    titleReferences?: Reference[];
 }
