@@ -1,5 +1,5 @@
-import { Parts } from "./Part";
+import { Part } from "./Part";
 
-export interface BibleData {
-    parts: Parts[];
+export interface CicData {
+    parts: Part[];
 }

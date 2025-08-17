@@ -1,6 +1,6 @@
 import { Section } from "./Section";
 
-export interface Parts {
+export interface Part {
     id: number;
     title?: string;
     subTitle?: string;

@@ -1,4 +1,4 @@
 export interface Cic {
     number: number;
-    confer: boolean;
+    confer?: boolean;
 }
